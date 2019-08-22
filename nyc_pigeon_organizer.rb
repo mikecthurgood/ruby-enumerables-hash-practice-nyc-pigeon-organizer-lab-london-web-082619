@@ -1,3 +1,12 @@
 def nyc_pigeon_organizer(data)
-  # write your code here!
+    pigeon_data_by_name = {}
+  
+    data.each do | attribute, attribute_details |
+        attribute_details.each do | attributes, pigeon_names |
+            pigeon_names.each do | name |
+        
+
+            end
+        end
+    end
 end
