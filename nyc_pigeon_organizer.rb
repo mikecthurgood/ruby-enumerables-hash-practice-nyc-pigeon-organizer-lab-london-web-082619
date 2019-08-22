@@ -15,9 +15,11 @@ def nyc_pigeon_organizer(data)
               pigeon_data_by_name[pigeon_name] ||= {}
               
             # assigns the original attribute key to the corresponding pigeon name 
-            # attribute assigned as 
+            # attribute: value is an empty array
               pigeon_data_by_name[pigeon_name][attribute] ||= []
-              pigeon_data_by_name[pigeon_name][attribute] << specific_attributes.to_s
+              
+            #pushes each   
+              pigeon_data_by_name[pigeon_name][attribute].push(specific_attributes.to_s)
             end
         end
     end
