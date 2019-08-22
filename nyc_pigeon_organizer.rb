@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
             pigeon_names.each do | pigeon_name |
               
               #adds each pigeon name to it's own key in the new hash (pigeon_data_by_name) 
-              using ||=
+              # using ||=
               pigeon_data_by_name[pigeon_name] ||= {}
               pigeon_data_by_name[pigeon_name][attribute] ||= []
               pigeon_data_by_name[pigeon_name][attribute] << specific_attributes.to_s
