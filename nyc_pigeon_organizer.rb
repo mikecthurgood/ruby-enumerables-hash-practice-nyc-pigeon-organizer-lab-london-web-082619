@@ -7,7 +7,6 @@ def nyc_pigeon_organizer(data)
               pigeon_data_by_name[pigeon_name] ||= {}
               pigeon_data_by_name[pigeon_name][attribute] = []
               pigeon_data_by_name[pigeon_name][attribute] << attributes.to_s
-              
             end
         end
     end
