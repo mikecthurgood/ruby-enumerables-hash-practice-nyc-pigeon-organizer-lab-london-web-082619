@@ -14,7 +14,8 @@ def nyc_pigeon_organizer(data)
             # uses ||= to add each unique value as a new key in the hash rather than overwrite
               pigeon_data_by_name[pigeon_name] ||= {}
               
-            # assigns the attribute from the first .each to the corresponding pigeon name as a new array 
+            # assigns the original attribute key to the corresponding pigeon name 
+            # attribute assigned as 
               pigeon_data_by_name[pigeon_name][attribute] ||= []
               pigeon_data_by_name[pigeon_name][attribute] << specific_attributes.to_s
             end
