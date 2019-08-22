@@ -18,7 +18,7 @@ def nyc_pigeon_organizer(data)
             # attribute: value is an empty array
               pigeon_data_by_name[pigeon_name][attribute] ||= []
               
-            #pushes each   
+            # pushes the details of each attribute (e.g. colour = purple) to   
               pigeon_data_by_name[pigeon_name][attribute].push(specific_attributes.to_s)
             end
         end
